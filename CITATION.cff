@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "MINGLE: Mutually-Informed Graph-Locality and Exposures"
+type: software
+authors:
+  - family-names: Chehab
+    given-names: Sara
+    email: sara.chehab22@imperial.ac.uk
+    affiliation: Imperial College London
+  - family-names: Iacovides
+    given-names: Giorgos
+    email: giorgos.iacovides20@imperial.ac.uk
+    affiliation: Imperial College London
+  - family-names: Yazdanparast
+    given-names: Parisa
+    affiliation: Beaufort Bridges
+  - family-names: Mandic
+    given-names: Danilo
+    email: d.mandic@imperial.ac.uk
+    affiliation: Imperial College London
+repository-code: "https://github.com/sarachehab/mingle-icaif26"
+license: MIT
+keywords:
+  - portfolio optimisation
+  - graph learning
+  - factor models
+  - ADMM
+  - quantitative finance
+preferred-citation:
+  type: conference-paper
+  title: "Beyond Co-Movement: Locality by Exposures Enables a Joint Factor–Graph Framework for Portfolio Diversification"
+  authors:
+    - family-names: Chehab
+      given-names: Sara
+      affiliation: Imperial College London
+    - family-names: Iacovides
+      given-names: Giorgos
+      affiliation: Imperial College London
+    - family-names: Yazdanparast
+      given-names: Parisa
+      affiliation: Beaufort Bridges
+    - family-names: Mandic
+      given-names: Danilo
+      affiliation: Imperial College London
+  collection-title: "Proceedings of the 7th ACM International Conference on AI in Finance (ICAIF '26)"
+  collection-type: proceedings
+  conference:
+    name: "7th ACM International Conference on AI in Finance (ICAIF '26)"
+    city: Milan
+    country: IT
+    date-start: 2026-11-14
+    date-end: 2026-11-17
+  publisher:
+    name: "Association for Computing Machinery"
+    city: "New York, NY"
+    country: US
+  doi: "10.1145/3858063.3858790"
+  isbn: "979-8-4007-3087-0"
+  year: 2026
+  month: 11

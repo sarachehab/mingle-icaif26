@@ -1,0 +1,31 @@
+[project]
+name = "mingle-icaif26"
+version = "0.1.0"
+description = "MINGLE: jointly learnt factor model and exposure-similarity graph for portfolio diversification (ICAIF 2026)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+  { name = "Sara Chehab", email = "sara.chehab22@imperial.ac.uk" },
+  { name = "Giorgos Iacovides", email = "giorgos.iacovides20@imperial.ac.uk" },
+  { name = "Parisa Yazdanparast" },
+  { name = "Danilo Mandic", email = "d.mandic@imperial.ac.uk" },
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Repository = "https://github.com/sarachehab/mingle-icaif26"
+Paper = "https://doi.org/10.1145/3858063.3858790"
+
+[project.scripts]
+run-experiment = "mingle.utils.runner.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+include = ["mingle*"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
