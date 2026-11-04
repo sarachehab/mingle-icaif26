@@ -1,0 +1,7 @@
+experiment:
+  name: sp500_visualisation
+  description: "Visualisation of graphs for SP500"
+
+data:
+  indices: [S&P500]
+  top_n_by_volume: 100

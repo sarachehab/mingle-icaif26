@@ -1,0 +1,22 @@
+experiment:
+  name: reference
+  description: "Standard run"
+
+benchmark:
+  type: EW
+  ablation:
+    name: benchmarks
+    overrides:
+      - type: EW
+      - type: MVO
+      - type: HRP
+      - type: CUT
+      - type: FACTOR
+
+allocation:
+  type: ADMM_CUT
+  ablation:
+    name: all_allocations
+    overrides:
+      - type: ADMM_CUT
+      - type: ADMM_CONTAGION_CUT
